@@ -1,0 +1,152 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#trnav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#nav {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+li {
+  float: left;
+  align-items: center;
+  list-style-type: none;
+}
+
+li a {
+  display: inline-block;
+  color: #000;
+  padding: 10px 8px;
+  text-decoration: none;
+
+}
+
+#logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 109px;
+    padding-bottom: 10px;
+    position: static;
+
+ }
+
+ #avatar {
+    border-radius: 100%;
+ }
+
+#form {
+  padding: 20px;
+  width: 600;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#searchbar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 584px;
+  overflow: hidden;
+  padding: 5px 9px 0;
+  max-width: 584px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  height: 38px;
+
+}
+
+#searchbar:hover {
+  border: 1px solid #b3b3b3;
+}
+
+#searchbar:onclick {
+  border: 1px solid #4d90fe;
+}
+
+#button {
+  display: flex;
+  padding: 20px;
+  width: 300px;
+  margin: 0px auto 0px auto;
+  height: 100%;
+  position: inherit;
+}
+
+input[type="submit"] {
+  height: 36px;
+  line-height: 27px;
+  -moz-user-select: none;
+  background-color: #f2f2f2;
+  background-image: -moz-linear-gradient(center top , #f5f5f5, #f1f1f1);
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  background-color: #f8f8f8;
+  background-image: -moz-linear-gradient(center top , #f8f8f8, #f1f1f1);
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+#footer {
+    text-decoration: none;
+    color: #222222;
+    background: #f2f2f2 none repeat scroll 0 0;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0px;
+    left: -5px;
+    font-size: 10pt;
+    line-height: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+#left {
+  float: left;
+  color: #222;
+  align-items: center;
+}
+
+#footer a {
+  color: #666;
+  margin: 2px 10px 0;
+
+}
+
+#right {
+  float: right;
+  margin-right: 30px;
+}
